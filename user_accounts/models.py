@@ -6,7 +6,6 @@ from django.contrib.auth.models import AbstractUser
 class CustomUser(AbstractUser):
     #here you can add as many custom fields as possible
     bio = models.TextField(null=True, blank=True)
-    test = models.TextField(null=True, blank=True)
     '''
      null 
        definition : the column will store records as NULL if no input is given
